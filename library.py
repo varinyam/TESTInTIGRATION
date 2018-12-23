@@ -15,7 +15,7 @@ class Square(Shape):
 class Rectangle(Shape):
     side = 4
     def area(self):
-        print self.side * 2
+        print self.side * 2*2
         print "Succeess for config"
 
 sq = Square()
